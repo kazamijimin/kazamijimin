@@ -63,13 +63,6 @@
 
 </div>
 
-## 📈 Coding Activity
-
-<div align="center">
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=kazamijimin&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
-</div>
 
 ## 💻 Featured Projects
 
@@ -160,7 +153,7 @@ const nickMendoza = {
         misc: ["Git", "GitHub Actions", "Vercel"]
     },
     currentFocus: "Building full-stack applications and learning cloud technologies",
-    futureGoals: "2025: Become a Full Stack Developer"
+    futureGoals: "Become a Full Stack Developer"
 };
 ```
 
