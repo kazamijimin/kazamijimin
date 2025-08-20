@@ -1,14 +1,99 @@
-# 👋 Hi, I'm Yuuri  
+# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" /> Hi, I'm Yuuri  
+
+<div align="center">
+  <!-- Add your profile picture here -->
+  <img src="https://github.com/yourusername.png" alt="Profile Picture" width="150" height="150" style="border-radius: 50%;"/>
+  
+  <!-- Animated typing effect -->
+  <h3>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Aspiring+Nurse+%F0%9F%91%A9%E2%80%8D%E2%9A%95%EF%B8%8F;Learning+Next.js%2C+Firebase%2C+Supabase;Building+Mobile+%26+Web+Applications;Passionate+about+Healthcare+Technology" alt="Typing Animation" />
+  </h3>
+</div>
+
+---
 
 ## 🚀 About Me
-- Aspiring Nurse 👩‍⚕️  
-- Learning **Next.js, Firebase, Supabase**  
-- Interested in mobile & web apps  
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-## 💻 Projects
-- [🌐 Personal Hub](https://github.com/yourusername/personal-hub)  
-- [📱 Flutter E-commerce App](https://github.com/yourusername/flutterecommerce4)  
+- 👩‍⚕️ **Aspiring Nurse** passionate about healthcare technology  
+- 🌱 Currently learning **Next.js, Firebase, Supabase**  
+- 📱 Interested in **mobile & web application development**  
+- 💡 Combining healthcare knowledge with tech skills  
+- 🎯 Goal: Create impactful healthcare applications  
 
-## 📫 Connect with Me
-- Email: yourname@gmail.com  
-- LinkedIn: [Your Name](https://linkedin.com/in/yourusername)  
+## 🛠️ Tech Stack
+<div align="center">
+  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+</div>
+
+## 💻 Featured Projects
+
+### 🌐 [Personal Hub](https://github.com/yourusername/personal-hub)
+> A comprehensive personal dashboard built with modern web technologies
+
+### 📱 [Flutter E-commerce App](https://github.com/kazamijimin/flutterecommerce4)
+> Full-featured mobile e-commerce application built with Flutter
+> 
+> **Legacy Version**: [Drive Backup](https://drive.google.com/drive/u/0/folders/1NJ-hcWIsXJZPKxkX4cgQUx4_HUv8fqKY) *(from my early learning days!)*
+
+### 🎨 [My Portfolio Website](https://myportfolio-nickmendoza.vercel.app/projects)
+> Personal portfolio showcasing my projects and skills
+
+### 🐛 [Hack BugBusters WebApp](https://hack-bugbusters-webapp.vercel.app)
+> Bug tracking and management application
+
+---
+
+## 🏆 GitHub Achievements
+
+<div align="center">
+  
+<!-- GitHub Stats -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+
+<!-- Most Used Languages -->
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+
+<!-- GitHub Streak -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)
+
+</div>
+
+### 🎯 Notable Achievements
+- 🏅 **Early Adopter**: Started coding journey with determination
+- 📚 **Continuous Learner**: Expanding skills in modern web technologies
+- 🔄 **Version Control**: Evolved from Drive storage to proper Git workflow
+- 🚀 **Project Deployment**: Successfully deployed multiple applications
+
+## 📊 Activity Graph
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark)
+
+---
+
+## 📫 Let's Connect!
+
+<div align="center">
+  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mendozanicknarry@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://myportfolio-nickmendoza.vercel.app)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+</div>
+
+<div align="center">
+  
+**✨ "Bridging Healthcare and Technology, One Line of Code at a Time" ✨**
+
+</div>
