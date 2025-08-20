@@ -178,14 +178,3 @@ const nickMendoza = {
 
 </div>
 
-<img src="https://raw.githubusercontent.com/kazamijimin/kazamijimin/output/snake.svg" alt="Snake animation" />
-
----
-
-<details>
-<summary>📈 More GitHub Stats</summary>
-<br>
-
-![Metrics](https://metrics.lecoq.io/kazamijimin?template=classic&config.timezone=Asia%2FManila)
-
-</details>
