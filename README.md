@@ -2,11 +2,11 @@
 
 <div align="center">
   <!-- Add your profile picture here -->
-  <img src="https://github.com/yourusername.png" alt="Profile Picture" width="150" height="150" style="border-radius: 50%;"/>
+  <img src="https://github.com/kazamijimin.png" alt="Profile Picture" width="150" height="150" style="border-radius: 50%;"/>
   
   <!-- Animated typing effect -->
   <h3>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Aspiring+Nurse+%F0%9F%91%A9%E2%80%8D%E2%9A%95%EF%B8%8F;Learning+Next.js%2C+Firebase%2C+Supabase;Building+Mobile+%26+Web+Applications;Passionate+about+Healthcare+Technology" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Aspiring+Developer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;Learning+Next.js%2C+Firebase%2C+Supabase;Building+Mobile+%26+Web+Applications;Passionate+about+Clean+Code" alt="Typing Animation" />
   </h3>
 </div>
 
@@ -15,16 +15,17 @@
 ## 🚀 About Me
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-- 👩‍⚕️ **Aspiring Nurse** passionate about healthcare technology  
+- 👨‍💻 **Aspiring Developer** passionate about creating innovative solutions  
 - 🌱 Currently learning **Next.js, Firebase, Supabase**  
 - 📱 Interested in **mobile & web application development**  
-- 💡 Combining healthcare knowledge with tech skills  
-- 🎯 Goal: Create impactful healthcare applications  
+- 💡 Love building projects and solving problems with code  
+- 🎯 Goal: Create impactful applications that make a difference  
 
 ## 🛠️ Tech Stack
 <div align="center">
   
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
@@ -35,7 +36,7 @@
 
 ## 💻 Featured Projects
 
-### 🌐 [Personal Hub](https://github.com/yourusername/personal-hub)
+### 🌐 [Personal Hub](https://github.com/kazamijimin/personal-hub)
 > A comprehensive personal dashboard built with modern web technologies
 
 ### 📱 [Flutter E-commerce App](https://github.com/kazamijimin/flutterecommerce4)
@@ -56,13 +57,13 @@
 <div align="center">
   
 <!-- GitHub Stats -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kazamijimin&show_icons=true&theme=radical)
 
 <!-- Most Used Languages -->
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kazamijimin&layout=compact&theme=radical)
 
 <!-- GitHub Streak -->
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kazamijimin&theme=radical)
 
 </div>
 
@@ -73,7 +74,7 @@
 - 🚀 **Project Deployment**: Successfully deployed multiple applications
 
 ## 📊 Activity Graph
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kazamijimin&theme=react-dark)
 
 ---
 
@@ -89,11 +90,11 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=kazamijimin&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </div>
 
 <div align="center">
   
-**✨ "Bridging Healthcare and Technology, One Line of Code at a Time" ✨**
+**✨ "Building the Future, One Line of Code at a Time" ✨**
 
 </div>
