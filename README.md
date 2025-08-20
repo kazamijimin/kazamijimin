@@ -1,16 +1,14 @@
-## Hi there 👋
+# 👋 Hi, I'm Yuuri  
 
-<!--
-**kazamijimin/kazamijimin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 About Me
+- Aspiring Nurse 👩‍⚕️  
+- Learning **Next.js, Firebase, Supabase**  
+- Interested in mobile & web apps  
 
-Here are some ideas to get you started:
+## 💻 Projects
+- [🌐 Personal Hub](https://github.com/yourusername/personal-hub)  
+- [📱 Flutter E-commerce App](https://github.com/yourusername/flutterecommerce4)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📫 Connect with Me
+- Email: yourname@gmail.com  
+- LinkedIn: [Your Name](https://linkedin.com/in/yourusername)  
