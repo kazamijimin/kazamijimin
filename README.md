@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- Profile picture -->
-  <img src="[https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/506485221_1038653218407430_5245410414578357711_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFRQ9aXW47MvnP5RdAKs1GbHmLZ7lwoPHweYtnuXCg8fEDFA-qq8axCRV-TAFJ8icGNnu-JfgMXcG-QBs92NiDe&_nc_ohc=2iHFRf_hdsEQ7kNvwFgXFSZ&_nc_oc=AdkigbRNSYWoesOo_LrFtUMOS_uyfITFwKKPKylFeR1SD5YjbEn_S_mg6oXrqeQEHCLfiIIOovBLvXmSnuhTRP81&_nc_zt=23&_nc_ht=scontent.fmnl3-2.fna&_nc_gid=QiX54Lr6Y8W-X9pWUPobCw&oh=00_AfUhycpJ_XVKgaacfsK07qsEp7Zz5mvqsPP-XQNXIgX7Gw&oe=68AADD83](https://cdn.discordapp.com/attachments/955289355541418015/1413884483916136539/NICKc.png?ex=68bd8e09&is=68bc3c89&hm=028063eea361a545f7db80a729f04f0e895588118d67ffd9ddef13dd9c827df3&)" alt="Profile Picture" width="150" height="150" style="border-radius: 50%;"/>
+  <img src="https://cdn.discordapp.com/attachments/955289355541418015/1413884483916136539/NICKc.png?ex=68bd8e09&is=68bc3c89&hm=028063eea361a545f7db80a729f04f0e895588118d67ffd9ddef13dd9c827df3&" alt="Profile Picture" width="150" height="150" style="border-radius: 50%;"/>
   
   <!-- Animated typing effect -->
   <h3>
