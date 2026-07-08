@@ -1,9 +1,6 @@
 # Hi, I'm Nick Narry S. Mendoza 
 
 <div align="center">
-  <!-- Profile picture -->
-  <img src="https://cdn.discordapp.com/attachments/955289355541418015/1413884483916136539/NICKc.png?ex=68bd8e09&is=68bc3c89&hm=028063eea361a545f7db80a729f04f0e895588118d67ffd9ddef13dd9c827df3&" alt="Profile Picture" width="150" height="150" style="border-radius: 50%;"/>
-  
   <!-- Animated typing effect -->
   <h3>
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Aspiring+Developer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;Learning+Next.js%2C+Firebase%2C+Supabase;Building+Mobile+%26+Web+Applications;Passionate+about+Clean+Code;Full+Stack+Developer+in+Training" alt="Typing Animation" />
