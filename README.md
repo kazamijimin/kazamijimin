@@ -1,17 +1,17 @@
-# 👋 Hi, I'm Nick Narry S. Mendoza
+# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" /> Hi, I'm Nick Narry S. Mendoza
 
 <div align="center">
 
-### Computer Science Student • Software Developer • AI-Assisted Systems Builder
+  <h3>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Aspiring+Full-Stack+Developer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;Building+Web%2C+Mobile%2C+and+AI-Assisted+Systems;Laravel+%7C+Django+%7C+React+%7C+React+Native;PostgreSQL+%7C+Firebase+%7C+Supabase;Creating+Impactful+Student+and+Community+Projects" alt="Typing Animation" />
+  </h3>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=850&lines=Building+Full-Stack+Web+Applications;Developing+AI-Assisted+Software+Systems;React+%7C+TypeScript+%7C+Laravel+%7C+Python;Working+with+ASR%2C+APIs%2C+Databases+%26+Automation;Learning+Native+Mobile+Development+with+Expo" alt="Typing Animation" />
-
-<p>
-  <a href="https://github.com/kazamijimin?tab=followers">
-    <img src="https://img.shields.io/github/followers/kazamijimin?label=Followers&style=flat-square" alt="GitHub Followers">
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=kazamijimin&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-</p>
+  <p>
+    <a href="https://github.com/kazamijimin?tab=followers">
+      <img src="https://img.shields.io/github/followers/kazamijimin?label=Followers&style=social" alt="GitHub Followers">
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=kazamijimin&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  </p>
 
 </div>
 
@@ -19,25 +19,25 @@
 
 ## 🚀 About Me
 
-I'm **Nick Narry S. Mendoza**, a Computer Science student and software developer from the **Philippines 🇵🇭** interested in building practical full-stack applications and AI-assisted systems.
+<img align="right" alt="Coding" width="390" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-* 💻 Building applications with **React, TypeScript, Laravel, Python, and PostgreSQL**
-* 🤖 Exploring **AI-assisted development, speech recognition, automation, and intelligent systems**
-* 🎙️ Working with **Automatic Speech Recognition (ASR), FastAPI, Whisper, and audio-processing pipelines**
-* 🧪 Interested in **software testing, QA, security verification, and reliable system design**
-* 📱 Currently expanding into **React Native and Expo** for native mobile development
-* 🗄️ Comfortable working with **relational databases, REST APIs, authentication, and role-based systems**
-* 🧠 Using AI development tools such as **OpenAI Codex** for repository analysis, implementation planning, debugging, testing, and development workflows
-* 🔄 Practicing structured **Git/GitHub workflows, branching, code review, and deployment**
-* 🎯 I enjoy turning real-world problems into usable software rather than building projects solely for demonstrations
+I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Philippines** 🇵🇭 who enjoys building practical systems for education, data management, automation, and community use.
+
+* 👨‍💻 I build **web, mobile, and full-stack applications**
+* 🧠 Interested in **AI-assisted systems, dashboards, APIs, and database-driven apps**
+* 🌱 Currently improving my skills in **Laravel, Django, React, React Native, PostgreSQL, Firebase, and Supabase**
+* 🤖 Exploring **AI-assisted development workflows using OpenAI Codex and ChatGPT**
+* 📱 Focused on creating systems that are useful, clean, responsive, and easy to use
+* 🛠️ I enjoy turning academic, research, and real-world problems into working software
+* ⚡ Fun fact: I evolved from storing code in Google Drive to using proper Git and GitHub workflows
 
 ---
 
-# 🛠️ Technical Skills
+## 🛠️ Tech Stack & Tools
 
 <div align="center">
 
-### Languages
+### Programming Languages
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
@@ -50,266 +50,212 @@ I'm **Nick Narry S. Mendoza**, a Computer Science student and software developer
 ### Frontend & Mobile
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=next.js\&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge\&logo=expo\&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=next.js\&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter\&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
 
-### Backend & APIs
+### Backend & Database
 
 ![Laravel](https://img.shields.io/badge/Laravel-F9322C?style=for-the-badge\&logo=laravel\&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge\&logo=django\&logoColor=white)
+![Django REST](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge\&logo=django\&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge\&logo=node.js\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
 
-### Databases & Cloud
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge\&logo=firebase\&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge\&logo=neon\&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge\&logo=vercel\&logoColor=white)
-
-### AI & AI-Assisted Development
+### AI Platforms & AI-Assisted Development
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge\&logo=openai\&logoColor=white)
-![Codex](https://img.shields.io/badge/OpenAI_Codex-000000?style=for-the-badge\&logo=openai\&logoColor=white)
-![Whisper](https://img.shields.io/badge/Whisper-ASR-412991?style=for-the-badge\&logo=openai\&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-AI_Assisted-8A2BE2?style=for-the-badge)
+![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-000000?style=for-the-badge\&logo=openai\&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge\&logo=openai\&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=for-the-badge\&logo=openai\&logoColor=white)
 
-### Testing & Development Tools
+### Tools & Deployment
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge\&logo=playwright\&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge\&logo=vitest\&logoColor=white)
-![PHPUnit](https://img.shields.io/badge/PHPUnit-366488?style=for-the-badge\&logo=php\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge\&logo=github\&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge\&logo=visual%20studio%20code\&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge\&logo=vercel\&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon_DB-00E599?style=for-the-badge\&logo=neon\&logoColor=black)
 
 </div>
 
 ---
 
-# 💻 Featured Engineering Projects
+## 💻 Featured Projects
 
-## 📚 ReaDirect
+### 🎙️ [Audio Transcriber](https://github.com/kazamijimin/audio-transcriber)
 
-> **AI-assisted oral reading and comprehension learning-support system integrating speech recognition, structured learning activities, persistent learner progression, and teacher-facing monitoring.**
+> An audio transcription project focused on converting spoken audio into readable text through a clean and practical workflow.
 
-### What it includes
+**Project Focus:**
 
-* 🎙️ Automatic Speech Recognition for learner reading responses
-* 🧠 Expected-aware and deterministic response interpretation
-* 🔊 Integrated text-to-speech learning assistant
-* 📚 Diagnostic assessment, six structured lesson domains, and final assessment
-* 🔐 Learner and staff authentication with role-based authorization
-* 💾 Persistent learner progress and resumable assessment/lesson sessions
-* 👩‍🏫 Teacher monitoring, learner review, and reporting workflows
-* 🎮 Integrated learning-game architecture
-* 📱 Responsive learner and administrative interfaces
-* 🧪 Automated backend, frontend, browser, ASR, and TTS testing
-* 🛡️ Security-focused API and deployment controls
+* Audio transcription
+* Speech-to-text processing
+* Audio upload and processing workflow
+* Practical AI-assisted utility
+* Clean and accessible interface
 
-### Architecture
-
-```text
-React + TypeScript + Vite
-          ↓
-      Laravel API
-       ↙       ↘
-PostgreSQL    FastAPI
-              ↙    ↘
-            ASR    TTS
-```
-
-**Technologies:** React • TypeScript • Vite • Laravel • PHP • Python • FastAPI • PostgreSQL • Whisper/faster-whisper • REST APIs • Playwright • Vitest • PHPUnit • Pytest
+**Repository:** `kazamijimin/audio-transcriber`
 
 ---
 
-## 🧠 ReaDirect AI / Speech Processing
+### 📚 [ReaDirect V2](https://github.com/mendezjerick/ReaDirect-V2)
 
-> Speech-processing component supporting automatic transcription and controlled interpretation of spoken reading responses.
+> An AI-assisted oral reading and comprehension learning-support system built around structured reading activities, learner progression, speech processing, assessments, and administrative monitoring.
 
-### Highlights
+**Project Focus:**
 
-* 🎤 Audio preprocessing and quality validation
-* 🧠 Whisper-based automatic speech recognition
-* 🔤 Deterministic isolated-letter interpretation
-* 📝 Transcript normalization and alignment
-* 🔍 Expected-response comparison
-* 📊 WER, CER, accuracy, precision, recall, specificity, and F1 evaluation
-* ⚙️ FastAPI service architecture
-* 🧪 Automated speech-service testing
-
-**Technologies:** Python • FastAPI • Whisper • faster-whisper • CTranslate2 • ASR • Audio Processing • REST APIs • Pytest
-
----
-
-## 📊 Population Dynamic System
-
-> Full-stack application for managing and simulating population dynamics through dashboards, analytics, inventory management, and role-based access.
-
-### Highlights
-
-* Population simulation and modeling
-* Administrative and management dashboards
-* Inventory and resource management
-* Analytics and reporting
+* AI-assisted oral reading activities
+* Automatic Speech Recognition
+* Diagnostic and Final Assessment workflows
+* Structured learning activities
+* Learner progress persistence
+* Teacher and administrator monitoring
 * Role-based authentication and authorization
 * REST API architecture
-* Cloud-hosted relational database
+* Speech and TTS service integration
+* Automated testing and verification
 
-**Technologies:** Django • Django REST Framework • PostgreSQL • Neon • React • Vite • Axios • React Router
+**Tech Stack:** React, TypeScript, Vite, Laravel, PHP, Python, FastAPI, PostgreSQL, REST API, ASR
+
+**Repository:** `mendezjerick/ReaDirect-V2`
 
 ---
 
-## 🩺 MediChecker
+### 🌐 [Cosphere](https://github.com/mendezjerick/Cosphere)
 
-> Health-oriented software project designed around a simple and accessible information-checking workflow.
+> A collaborative software project focused on building a structured digital platform with modern application development practices.
 
-### Highlights
+**Project Focus:**
 
-* Structured information workflow
+* Full-stack application development
+* Structured frontend and backend architecture
+* Database-driven functionality
+* Collaborative Git/GitHub development
 * Responsive user interface
-* Organized application data
-* Practical user-focused design
 
-**Technologies:** React • JavaScript • Firebase / Supabase
+**Repository:** `mendezjerick/Cosphere`
 
 ---
 
-## 🌐 Developer Portfolio
-
-> Personal engineering portfolio documenting projects, technical work, development experience, and ongoing learning.
-
-### Highlights
-
-* Responsive interface
-* Project case studies
-* Engineering and development work
-* Deployment through Vercel
-* Continuous portfolio improvements
-
-**Technologies:** Next.js • React • Tailwind CSS • Vercel
-
----
-
-# 🧪 Engineering Practices
-
-Beyond frameworks and languages, I'm actively developing experience with:
-
-```text
-✓ REST API design and integration
-✓ Authentication and authorization
-✓ Role-Based Access Control
-✓ Relational database design
-✓ Git branching and repository workflows
-✓ Responsive interface development
-✓ Automated unit and integration testing
-✓ End-to-end browser testing
-✓ API and security verification
-✓ AI-assisted repository analysis
-✓ Debugging and root-cause investigation
-✓ Technical documentation
-✓ Deployment and staging verification
-✓ Prompt engineering
-```
-
----
-
-# 🤖 AI-Assisted Development
-
-I use AI as part of a structured software-development workflow rather than only for code generation.
-
-### Platforms & Tools
-
-* **OpenAI Codex** — repository analysis, implementation, debugging, testing, code review, and verification
-* **ChatGPT** — architecture exploration, technical research, documentation, debugging support, and planning
-* **Whisper / faster-whisper** — automatic speech recognition and speech-processing experimentation
-* **Prompt Engineering** — structured prompts for analysis, implementation, QA, and technical workflows
-
-My typical workflow emphasizes:
-
-```text
-Analyze
-   ↓
-Plan
-   ↓
-Implement
-   ↓
-Test
-   ↓
-Review
-   ↓
-Verify
-```
-
----
-
-# 📊 GitHub Activity
+## 🏆 GitHub Achievements & Statistics
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=kazamijimin&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kazamijimin&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph" />
+  <img src="https://streak-stats.demolab.com?user=kazamijimin&theme=radical&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
-> GitHub contribution data can take time to propagate through third-party statistics services. My contribution graph on GitHub is the primary source for current activity.
+<br>
+
+<div align="center">
+
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kazamijimin&theme=radical" alt="GitHub Profile Summary" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kazamijimin&theme=radical" alt="Repositories Per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kazamijimin&theme=radical" alt="Most Commit Language" />
+
+</div>
+
+> GitHub statistics provided by third-party services may update later than the official contribution graph. My GitHub profile contribution graph remains the primary source for my latest activity.
 
 ---
 
-# 🎯 Currently Exploring
+## 📊 Activity Graph
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kazamijimin\&theme=react-dark\&hide_border=true\&area=true)
+
+</div>
+
+---
+
+## 🎯 Current Focus
 
 ```javascript
-const nick = {
-  currentFocus: [
-    "Full-Stack Software Engineering",
-    "AI-Assisted Development",
-    "React Native + Expo",
-    "Software Testing & QA",
-    "Backend API Design",
-    "PostgreSQL",
+const nickMendoza = {
+  role: "Aspiring Full-Stack Developer",
+  location: "Philippines 🇵🇭",
+
+  currentlyLearning: [
+    "Laravel",
+    "Django REST Framework",
+    "React Native",
+    "Expo",
+    "Next.js",
+    "Firebase",
+    "Supabase",
+    "PostgreSQL"
   ],
 
-  aiAndDeveloperTools: [
-    "OpenAI Codex",
-    "ChatGPT",
-    "Whisper",
-    "GitHub",
+  currentlyBuilding: [
+    "ReaDirect V2",
+    "Audio Transcriber",
+    "Cosphere",
+    "Portfolio Website",
+    "Full-stack academic and community-based systems"
   ],
 
-  engineeringInterests: [
-    "Web Applications",
-    "Native Mobile Applications",
+  interests: [
+    "Web Development",
+    "Mobile Development",
     "AI-Assisted Systems",
-    "Speech Recognition",
-    "Backend Architecture",
     "Database Design",
-    "Software Testing",
-    "Developer Tooling",
+    "Dashboards and Analytics",
+    "Clean UI/UX"
   ],
 
-  principle:
-    "Build software that works, verify it, and keep improving it."
+  aiPlatforms: [
+    "OpenAI Codex",
+    "ChatGPT"
+  ],
+
+  technologies: {
+    frontend: ["React", "Next.js", "React Native", "Expo", "Tailwind CSS"],
+    backend: ["Laravel", "Django", "Django REST Framework", "FastAPI", "Node.js"],
+    mobile: ["React Native", "Expo", "Flutter"],
+    database: ["PostgreSQL", "Firebase", "Supabase", "Neon DB"],
+    tools: ["Git", "GitHub", "VS Code", "Vercel", "OpenAI Codex"]
+  },
+
+  goal: "Build impactful full-stack applications that solve real problems."
 };
 ```
 
 ---
 
-# 📫 Connect With Me
+## 🎯 Notable Highlights
+
+* 🚀 Built and deployed multiple web and software projects
+* 📚 Developing **ReaDirect V2**, an AI-assisted reading-support platform
+* 🎙️ Built **Audio Transcriber** for speech-to-text workflows
+* 🌐 Contributing to **Cosphere**
+* 🤖 Using **OpenAI Codex** for repository analysis, implementation planning, debugging, testing, and code review workflows
+* 🔄 Practicing structured Git branching and GitHub workflows
+* 🧪 Developing experience with automated testing and software verification
+* 🌐 Interested in creating responsive, user-friendly, and database-driven applications
+
+---
+
+## 📫 Let's Connect & Collaborate
 
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:mendozanicknarry@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://myportfolio-nickmendoza.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-kazamijimin-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/kazamijimin)
+[![GitHub](https://img.shields.io/badge/GitHub-kazamijimin-100000?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/kazamijimin)
 
 </div>
 
@@ -317,8 +263,10 @@ const nick = {
 
 <div align="center">
 
-### Building • Learning • Testing • Improving
+<img src="https://img.shields.io/badge/Status-Available%20for%20Projects-brightgreen" alt="Status" />
 
-**Software should do more than look finished — it should actually work.**
+<br><br>
+
+**✨ "Building useful systems, one line of code at a time." ✨**
 
 </div>
