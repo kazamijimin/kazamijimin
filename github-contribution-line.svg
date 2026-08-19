@@ -1,0 +1,757 @@
+<svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="960"
+          height="370"
+          viewBox="0 0 960 370"
+          role="img"
+          aria-labelledby="title description"
+        >
+
+        <title id="title">
+          GitHub Contribution Activity
+        </title>
+        
+
+        <desc id="description">
+          Weekly GitHub contribution activity
+          during the last twelve months.
+        </desc>
+        
+
+        <rect
+          x="0.5"
+          y="0.5"
+          width="959"
+          height="369"
+          rx="14"
+          fill="#ffffff"
+          stroke="#d0d7de"
+        />
+        
+
+        <text
+          x="72"
+          y="36"
+          fill="#1f2328"
+          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="21"
+          font-weight="700"
+        >
+          GitHub Contribution Activity
+        </text>
+        
+
+        <text
+          x="72"
+          y="60"
+          fill="#656d76"
+          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="13"
+        >
+          Weekly contributions · Last 12 months
+        </text>
+        
+
+        <text
+          x="928"
+          y="36"
+          text-anchor="end"
+          fill="#1f2328"
+          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="18"
+          font-weight="700"
+        >
+          346
+        </text>
+        
+
+        <text
+          x="928"
+          y="58"
+          text-anchor="end"
+          fill="#656d76"
+          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="12"
+        >
+          total contributions
+        </text>
+        
+
+            <line
+              x1="72"
+              y1="105.00"
+              x2="928"
+              y2="105.00"
+              stroke="#d8dee4"
+              stroke-width="1"
+            />
+            
+
+            <text
+              x="58"
+              y="109.00"
+              text-anchor="end"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              65
+            </text>
+            
+
+            <line
+              x1="72"
+              y1="146.40"
+              x2="928"
+              y2="146.40"
+              stroke="#d8dee4"
+              stroke-width="1"
+            />
+            
+
+            <text
+              x="58"
+              y="150.40"
+              text-anchor="end"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              52
+            </text>
+            
+
+            <line
+              x1="72"
+              y1="187.80"
+              x2="928"
+              y2="187.80"
+              stroke="#d8dee4"
+              stroke-width="1"
+            />
+            
+
+            <text
+              x="58"
+              y="191.80"
+              text-anchor="end"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              39
+            </text>
+            
+
+            <line
+              x1="72"
+              y1="229.20"
+              x2="928"
+              y2="229.20"
+              stroke="#d8dee4"
+              stroke-width="1"
+            />
+            
+
+            <text
+              x="58"
+              y="233.20"
+              text-anchor="end"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              26
+            </text>
+            
+
+            <line
+              x1="72"
+              y1="270.60"
+              x2="928"
+              y2="270.60"
+              stroke="#d8dee4"
+              stroke-width="1"
+            />
+            
+
+            <text
+              x="58"
+              y="274.60"
+              text-anchor="end"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              13
+            </text>
+            
+
+            <line
+              x1="72"
+              y1="312.00"
+              x2="928"
+              y2="312.00"
+              stroke="#d8dee4"
+              stroke-width="1"
+            />
+            
+
+            <text
+              x="58"
+              y="316.00"
+              text-anchor="end"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              0
+            </text>
+            
+
+        <polygon
+          points="72.00,312.00 72.00,248.31 88.46,210.09 104.92,257.86 121.38,312.00 137.85,312.00 154.31,312.00 170.77,312.00 187.23,312.00 203.69,302.45 220.15,280.15 236.62,296.08 253.08,312.00 269.54,289.71 286.00,289.71 302.46,305.63 318.92,312.00 335.38,248.31 351.85,312.00 368.31,312.00 384.77,312.00 401.23,312.00 417.69,312.00 434.15,312.00 450.62,312.00 467.08,114.55 483.54,305.63 500.00,312.00 516.46,299.26 532.92,302.45 549.38,312.00 565.85,289.71 582.31,312.00 598.77,312.00 615.23,302.45 631.69,312.00 648.15,299.26 664.62,267.42 681.08,305.63 697.54,305.63 714.00,286.52 730.46,312.00 746.92,270.60 763.38,257.86 779.85,267.42 796.31,292.89 812.77,305.63 829.23,299.26 845.69,305.63 862.15,292.89 878.62,261.05 895.08,280.15 911.54,267.42 928.00,286.52 928.00,312.00"
+          fill="#54aeff"
+          opacity="0.10"
+        />
+        
+
+        <polyline
+          points="72.00,248.31 88.46,210.09 104.92,257.86 121.38,312.00 137.85,312.00 154.31,312.00 170.77,312.00 187.23,312.00 203.69,302.45 220.15,280.15 236.62,296.08 253.08,312.00 269.54,289.71 286.00,289.71 302.46,305.63 318.92,312.00 335.38,248.31 351.85,312.00 368.31,312.00 384.77,312.00 401.23,312.00 417.69,312.00 434.15,312.00 450.62,312.00 467.08,114.55 483.54,305.63 500.00,312.00 516.46,299.26 532.92,302.45 549.38,312.00 565.85,289.71 582.31,312.00 598.77,312.00 615.23,302.45 631.69,312.00 648.15,299.26 664.62,267.42 681.08,305.63 697.54,305.63 714.00,286.52 730.46,312.00 746.92,270.60 763.38,257.86 779.85,267.42 796.31,292.89 812.77,305.63 829.23,299.26 845.69,305.63 862.15,292.89 878.62,261.05 895.08,280.15 911.54,267.42 928.00,286.52"
+          fill="none"
+          stroke="#0969da"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        
+
+            <circle
+              cx="72.00"
+              cy="248.31"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="88.46"
+              cy="210.09"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="104.92"
+              cy="257.86"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="121.38"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="137.85"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="154.31"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="170.77"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="187.23"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="203.69"
+              cy="302.45"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="220.15"
+              cy="280.15"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="236.62"
+              cy="296.08"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="253.08"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="269.54"
+              cy="289.71"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="286.00"
+              cy="289.71"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="302.46"
+              cy="305.63"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="318.92"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="335.38"
+              cy="248.31"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="351.85"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="368.31"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="384.77"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="401.23"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="417.69"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="434.15"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="450.62"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="467.08"
+              cy="114.55"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="483.54"
+              cy="305.63"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="500.00"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="516.46"
+              cy="299.26"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="532.92"
+              cy="302.45"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="549.38"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="565.85"
+              cy="289.71"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="582.31"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="598.77"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="615.23"
+              cy="302.45"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="631.69"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="648.15"
+              cy="299.26"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="664.62"
+              cy="267.42"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="681.08"
+              cy="305.63"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="697.54"
+              cy="305.63"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="714.00"
+              cy="286.52"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="730.46"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="746.92"
+              cy="270.60"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="763.38"
+              cy="257.86"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="779.85"
+              cy="267.42"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="796.31"
+              cy="292.89"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="812.77"
+              cy="305.63"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="829.23"
+              cy="299.26"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="845.69"
+              cy="305.63"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="862.15"
+              cy="292.89"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="878.62"
+              cy="261.05"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="895.08"
+              cy="280.15"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="911.54"
+              cy="267.42"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+            <circle
+              cx="928.00"
+              cy="286.52"
+              r="2.8"
+              fill="#0969da"
+            />
+            
+
+        <circle
+          cx="467.08"
+          cy="114.55"
+          r="6"
+          fill="#ffffff"
+          stroke="#0969da"
+          stroke-width="3"
+        />
+        
+
+            <text
+              x="72.00"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Aug 2025
+            </text>
+            
+
+            <text
+              x="220.15"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Oct 2025
+            </text>
+            
+
+            <text
+              x="351.85"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Dec 2025
+            </text>
+            
+
+            <text
+              x="500.00"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Feb 2026
+            </text>
+            
+
+            <text
+              x="648.15"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Apr 2026
+            </text>
+            
+
+            <text
+              x="779.85"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Jun 2026
+            </text>
+            
+
+            <text
+              x="928.00"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Aug 2026
+            </text>
+            
+
+        <text
+          x="72"
+          y="363"
+          fill="#656d76"
+          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="10"
+        >
+          Best week: 62 · Average/week: 6.5 · Active weeks: 33/53
+        </text>
+        
+</svg>
