@@ -1,7 +1,8 @@
-name: Generate Contribution Graph
+name: Generate Contribution Line Graph
 
 on:
   schedule:
+    # Runs every day at 00:00 UTC / 8:00 AM Philippine Time
     - cron: "0 0 * * *"
 
   workflow_dispatch:
@@ -12,20 +13,700 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    env:
+      PROFILE_USER: kazamijimin
+      OUTPUT_BRANCH: output
 
     steps:
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: kazamijimin
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push generated SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-          target_branch: output
+      - name: Generate and publish contribution line graph
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+
+        run: |
+          python3 - <<'PY'
+          import os
+          import json
+          import math
+          import base64
+          import urllib.request
+          import urllib.error
+          from datetime import date
+
+          # ---------------------------------------------------------
+          # Configuration
+          # ---------------------------------------------------------
+
+          username = os.environ["PROFILE_USER"]
+          repository = os.environ["REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+
+          output_branch = os.environ.get("OUTPUT_BRANCH", "output")
+          default_branch = os.environ.get("DEFAULT_BRANCH") or "main"
+
+          # ---------------------------------------------------------
+          # GitHub API helper
+          # ---------------------------------------------------------
+
+          def request_json(url, method="GET", payload=None):
+              headers = {
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/vnd.github+json",
+                  "X-GitHub-Api-Version": "2022-11-28",
+                  "User-Agent": "github-contribution-line-graph"
+              }
+
+              body = None
+
+              if payload is not None:
+                  body = json.dumps(payload).encode("utf-8")
+                  headers["Content-Type"] = "application/json"
+
+              request = urllib.request.Request(
+                  url,
+                  data=body,
+                  headers=headers,
+                  method=method
+              )
+
+              try:
+                  with urllib.request.urlopen(request) as response:
+                      content = response.read().decode("utf-8")
+
+                      if not content:
+                          return response.status, {}
+
+                      return response.status, json.loads(content)
+
+              except urllib.error.HTTPError as error:
+                  content = error.read().decode("utf-8")
+
+                  try:
+                      parsed = json.loads(content)
+                  except Exception:
+                      parsed = {"message": content}
+
+                  return error.code, parsed
+
+
+          # ---------------------------------------------------------
+          # Fetch contribution calendar from GitHub GraphQL
+          # ---------------------------------------------------------
+
+          graphql_query = """
+          query($login: String!) {
+            user(login: $login) {
+              contributionsCollection {
+                contributionCalendar {
+                  totalContributions
+                  weeks {
+                    firstDay
+                    contributionDays {
+                      date
+                      contributionCount
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          status, response = request_json(
+              "https://api.github.com/graphql",
+              method="POST",
+              payload={
+                  "query": graphql_query,
+                  "variables": {
+                      "login": username
+                  }
+              }
+          )
+
+          if status != 200:
+              raise RuntimeError(
+                  f"GitHub GraphQL request failed: {status} {response}"
+              )
+
+          if response.get("errors"):
+              raise RuntimeError(
+                  f"GitHub GraphQL returned errors: {response['errors']}"
+              )
+
+          user = response.get("data", {}).get("user")
+
+          if not user:
+              raise RuntimeError(
+                  f"GitHub user '{username}' was not found."
+              )
+
+          calendar = (
+              user["contributionsCollection"]
+                  ["contributionCalendar"]
+          )
+
+          weeks = calendar["weeks"]
+
+          if not weeks:
+              raise RuntimeError(
+                  "GitHub returned no contribution weeks."
+              )
+
+          # ---------------------------------------------------------
+          # Aggregate daily contributions into weekly totals
+          # ---------------------------------------------------------
+
+          weekly_dates = []
+          weekly_values = []
+
+          for week in weeks:
+              weekly_dates.append(week["firstDay"])
+
+              weekly_total = sum(
+                  day["contributionCount"]
+                  for day in week["contributionDays"]
+              )
+
+              weekly_values.append(weekly_total)
+
+          total_contributions = calendar["totalContributions"]
+          best_week = max(weekly_values)
+          active_weeks = sum(
+              1 for value in weekly_values
+              if value > 0
+          )
+
+          average_week = (
+              total_contributions / len(weekly_values)
+              if weekly_values
+              else 0
+          )
+
+          # ---------------------------------------------------------
+          # SVG dimensions
+          # ---------------------------------------------------------
+
+          WIDTH = 960
+          HEIGHT = 370
+
+          LEFT = 72
+          RIGHT = 32
+          TOP = 105
+          BOTTOM = 58
+
+          graph_width = WIDTH - LEFT - RIGHT
+          graph_height = HEIGHT - TOP - BOTTOM
+
+          count = len(weekly_values)
+
+          # ---------------------------------------------------------
+          # Calculate graph scale
+          # ---------------------------------------------------------
+
+          raw_max = max(max(weekly_values), 1)
+
+          if raw_max <= 5:
+              y_max = 5
+          elif raw_max <= 10:
+              y_max = 10
+          else:
+              y_max = int(math.ceil(raw_max / 5.0) * 5)
+
+          def x_position(index):
+              if count <= 1:
+                  return LEFT
+
+              return LEFT + (
+                  index / (count - 1)
+              ) * graph_width
+
+          def y_position(value):
+              return (
+                  TOP +
+                  (1 - (value / y_max))
+                  * graph_height
+              )
+
+          points = [
+              (
+                  x_position(index),
+                  y_position(value)
+              )
+              for index, value
+              in enumerate(weekly_values)
+          ]
+
+          line_points = " ".join(
+              f"{x:.2f},{y:.2f}"
+              for x, y in points
+          )
+
+          area_points = (
+              f"{points[0][0]:.2f},{TOP + graph_height:.2f} "
+              + line_points
+              + f" {points[-1][0]:.2f},{TOP + graph_height:.2f}"
+          )
+
+          # ---------------------------------------------------------
+          # X-axis labels
+          # ---------------------------------------------------------
+
+          label_count = min(7, count)
+
+          if label_count <= 1:
+              label_indexes = [0]
+          else:
+              label_indexes = sorted(set(
+                  round(
+                      index * (count - 1)
+                      / (label_count - 1)
+                  )
+                  for index in range(label_count)
+              ))
+
+          # ---------------------------------------------------------
+          # SVG generator
+          # ---------------------------------------------------------
+
+          def generate_svg(theme):
+              if theme == "dark":
+                  background = "#0d1117"
+                  border = "#30363d"
+                  primary_text = "#f0f6fc"
+                  secondary_text = "#8b949e"
+                  grid = "#21262d"
+                  line = "#36BCF7"
+                  area = "#36BCF7"
+              else:
+                  background = "#ffffff"
+                  border = "#d0d7de"
+                  primary_text = "#1f2328"
+                  secondary_text = "#656d76"
+                  grid = "#d8dee4"
+                  line = "#0969da"
+                  area = "#54aeff"
+
+              svg = []
+
+              svg.append(
+                  f'''<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="{WIDTH}"
+                    height="{HEIGHT}"
+                    viewBox="0 0 {WIDTH} {HEIGHT}"
+                    role="img"
+                    aria-labelledby="title description"
+                  >'''
+              )
+
+              svg.append(
+                  '''
+                  <title id="title">
+                    GitHub Contribution Activity
+                  </title>
+                  '''
+              )
+
+              svg.append(
+                  '''
+                  <desc id="description">
+                    Weekly GitHub contribution activity
+                    during the last twelve months.
+                  </desc>
+                  '''
+              )
+
+              svg.append(
+                  f'''
+                  <rect
+                    x="0.5"
+                    y="0.5"
+                    width="{WIDTH - 1}"
+                    height="{HEIGHT - 1}"
+                    rx="14"
+                    fill="{background}"
+                    stroke="{border}"
+                  />
+                  '''
+              )
+
+              # Title
+
+              svg.append(
+                  f'''
+                  <text
+                    x="{LEFT}"
+                    y="36"
+                    fill="{primary_text}"
+                    font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                    font-size="21"
+                    font-weight="700"
+                  >
+                    GitHub Contribution Activity
+                  </text>
+                  '''
+              )
+
+              # Subtitle
+
+              svg.append(
+                  f'''
+                  <text
+                    x="{LEFT}"
+                    y="60"
+                    fill="{secondary_text}"
+                    font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                    font-size="13"
+                  >
+                    Weekly contributions · Last 12 months
+                  </text>
+                  '''
+              )
+
+              # Total contribution count
+
+              svg.append(
+                  f'''
+                  <text
+                    x="{WIDTH - RIGHT}"
+                    y="36"
+                    text-anchor="end"
+                    fill="{primary_text}"
+                    font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                    font-size="18"
+                    font-weight="700"
+                  >
+                    {total_contributions:,}
+                  </text>
+                  '''
+              )
+
+              svg.append(
+                  f'''
+                  <text
+                    x="{WIDTH - RIGHT}"
+                    y="58"
+                    text-anchor="end"
+                    fill="{secondary_text}"
+                    font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                    font-size="12"
+                  >
+                    total contributions
+                  </text>
+                  '''
+              )
+
+              # -----------------------------------------------------
+              # Horizontal grid and Y-axis labels
+              # -----------------------------------------------------
+
+              grid_lines = 5
+
+              for index in range(grid_lines + 1):
+                  ratio = index / grid_lines
+
+                  y = TOP + (
+                      ratio * graph_height
+                  )
+
+                  value = round(
+                      y_max * (1 - ratio)
+                  )
+
+                  svg.append(
+                      f'''
+                      <line
+                        x1="{LEFT}"
+                        y1="{y:.2f}"
+                        x2="{WIDTH - RIGHT}"
+                        y2="{y:.2f}"
+                        stroke="{grid}"
+                        stroke-width="1"
+                      />
+                      '''
+                  )
+
+                  svg.append(
+                      f'''
+                      <text
+                        x="{LEFT - 14}"
+                        y="{y + 4:.2f}"
+                        text-anchor="end"
+                        fill="{secondary_text}"
+                        font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                        font-size="11"
+                      >
+                        {value}
+                      </text>
+                      '''
+                  )
+
+              # -----------------------------------------------------
+              # Area beneath line
+              # -----------------------------------------------------
+
+              svg.append(
+                  f'''
+                  <polygon
+                    points="{area_points}"
+                    fill="{area}"
+                    opacity="0.10"
+                  />
+                  '''
+              )
+
+              # -----------------------------------------------------
+              # Main line
+              # -----------------------------------------------------
+
+              svg.append(
+                  f'''
+                  <polyline
+                    points="{line_points}"
+                    fill="none"
+                    stroke="{line}"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  '''
+              )
+
+              # -----------------------------------------------------
+              # Data points
+              # -----------------------------------------------------
+
+              for x, y in points:
+                  svg.append(
+                      f'''
+                      <circle
+                        cx="{x:.2f}"
+                        cy="{y:.2f}"
+                        r="2.8"
+                        fill="{line}"
+                      />
+                      '''
+                  )
+
+              # Highlight highest week
+
+              highest_index = weekly_values.index(
+                  max(weekly_values)
+              )
+
+              highest_x, highest_y = points[
+                  highest_index
+              ]
+
+              svg.append(
+                  f'''
+                  <circle
+                    cx="{highest_x:.2f}"
+                    cy="{highest_y:.2f}"
+                    r="6"
+                    fill="{background}"
+                    stroke="{line}"
+                    stroke-width="3"
+                  />
+                  '''
+              )
+
+              # -----------------------------------------------------
+              # X-axis labels
+              # -----------------------------------------------------
+
+              for index in label_indexes:
+                  current_date = date.fromisoformat(
+                      weekly_dates[index]
+                  )
+
+                  label = current_date.strftime(
+                      "%b %Y"
+                  )
+
+                  x = x_position(index)
+
+                  svg.append(
+                      f'''
+                      <text
+                        x="{x:.2f}"
+                        y="{HEIGHT - 27}"
+                        text-anchor="middle"
+                        fill="{secondary_text}"
+                        font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                        font-size="11"
+                      >
+                        {label}
+                      </text>
+                      '''
+                  )
+
+              # -----------------------------------------------------
+              # Footer stats
+              # -----------------------------------------------------
+
+              footer_y = HEIGHT - 7
+
+              svg.append(
+                  f'''
+                  <text
+                    x="{LEFT}"
+                    y="{footer_y}"
+                    fill="{secondary_text}"
+                    font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+                    font-size="10"
+                  >
+                    Best week: {best_week} · Average/week: {average_week:.1f} · Active weeks: {active_weeks}/{count}
+                  </text>
+                  '''
+              )
+
+              svg.append("</svg>")
+
+              return "\n".join(svg)
+
+
+          light_svg = generate_svg("light")
+          dark_svg = generate_svg("dark")
+
+          # ---------------------------------------------------------
+          # GitHub repository API
+          # ---------------------------------------------------------
+
+          api_root = (
+              f"https://api.github.com/repos/"
+              f"{repository}"
+          )
+
+          # ---------------------------------------------------------
+          # Ensure output branch exists
+          # ---------------------------------------------------------
+
+          status, output_ref = request_json(
+              f"{api_root}/git/ref/heads/{output_branch}"
+          )
+
+          if status == 404:
+              print(
+                  f"Creating '{output_branch}' branch..."
+              )
+
+              status, default_ref = request_json(
+                  f"{api_root}/git/ref/heads/"
+                  f"{default_branch}"
+              )
+
+              if status != 200:
+                  raise RuntimeError(
+                      "Could not read default branch."
+                  )
+
+              source_sha = (
+                  default_ref["object"]["sha"]
+              )
+
+              status, created = request_json(
+                  f"{api_root}/git/refs",
+                  method="POST",
+                  payload={
+                      "ref": (
+                          f"refs/heads/"
+                          f"{output_branch}"
+                      ),
+                      "sha": source_sha
+                  }
+              )
+
+              if status not in (200, 201):
+                  raise RuntimeError(
+                      f"Could not create output branch: "
+                      f"{created}"
+                  )
+
+          elif status != 200:
+              raise RuntimeError(
+                  f"Unable to inspect output branch: "
+                  f"{output_ref}"
+              )
+
+          # ---------------------------------------------------------
+          # Publish SVG file
+          # ---------------------------------------------------------
+
+          def publish_file(filename, content):
+              file_url = (
+                  f"{api_root}/contents/"
+                  f"{filename}"
+              )
+
+              status, existing = request_json(
+                  f"{file_url}?ref={output_branch}"
+              )
+
+              encoded = base64.b64encode(
+                  content.encode("utf-8")
+              ).decode("ascii")
+
+              payload = {
+                  "message": (
+                      "Update GitHub contribution line graph"
+                  ),
+                  "content": encoded,
+                  "branch": output_branch
+              }
+
+              if status == 200:
+                  payload["sha"] = existing["sha"]
+
+              elif status != 404:
+                  raise RuntimeError(
+                      f"Unable to inspect {filename}: "
+                      f"{existing}"
+                  )
+
+              status, result = request_json(
+                  file_url,
+                  method="PUT",
+                  payload=payload
+              )
+
+              if status not in (200, 201):
+                  raise RuntimeError(
+                      f"Unable to publish {filename}: "
+                      f"{result}"
+                  )
+
+              print(
+                  f"Published {filename}"
+              )
+
+
+          publish_file(
+              "github-contribution-line.svg",
+              light_svg
+          )
+
+          publish_file(
+              "github-contribution-line-dark.svg",
+              dark_svg
+          )
+
+          print("")
+          print("Contribution graph generated successfully.")
+          print(
+              f"Total contributions: "
+              f"{total_contributions}"
+          )
+          print(
+              f"Best week: "
+              f"{best_week}"
+          )
+          print(
+              f"Average per week: "
+              f"{average_week:.1f}"
+          )
+
+          PY
