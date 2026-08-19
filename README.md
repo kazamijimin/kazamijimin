@@ -174,6 +174,38 @@ I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Phili
 ---
 ## 📈 GitHub Contribution Activity
 
+<details open>
+<summary><b>This Month</b></summary>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/kazamijimin/kazamijimin/output/github-contribution-this-month-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/kazamijimin/kazamijimin/output/github-contribution-this-month.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/kazamijimin/kazamijimin/output/github-contribution-this-month.svg"
+    alt="GitHub Contributions This Month"
+    width="100%"
+  />
+</picture>
+
+</div>
+
+</details>
+
+<details>
+<summary><b>Last 12 Months</b></summary>
+
+<br>
+
 <div align="center">
 
 <picture>
@@ -187,12 +219,14 @@ I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Phili
   />
   <img
     src="https://raw.githubusercontent.com/kazamijimin/kazamijimin/output/github-contribution-line.svg"
-    alt="GitHub Contribution Activity"
+    alt="GitHub Contributions Last 12 Months"
     width="100%"
   />
 </picture>
 
 </div>
+
+</details>
 ---
 
 ## 🎯 Current Focus
