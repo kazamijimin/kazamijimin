@@ -199,7 +199,6 @@ I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Phili
 </picture>
 
 </div>
-
 ---
 
 ## 🎯 Current Focus
