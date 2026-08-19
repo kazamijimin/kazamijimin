@@ -152,12 +152,6 @@ I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Phili
 
 ## 🏆 GitHub Achievements & Statistics
 
-<div align="center">
-
-  <img src="https://streak-stats.demolab.com?user=kazamijimin&theme=radical&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
 <br>
 
 <div align="center">
