@@ -21,7 +21,7 @@
 
 <img align="right" alt="Coding" width="390" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Philippines** 🇵🇭 who enjoys building practical systems for education, data management, automation, and community use.
+I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Laguna** 🇵🇭 who enjoys building practical systems for education, data management, automation, and community use.
 
 * 👨‍💻 I build **web, mobile, and full-stack applications**
 * 🧠 Interested in **AI-assisted systems, dashboards, APIs, and database-driven apps**
