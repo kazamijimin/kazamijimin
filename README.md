@@ -150,7 +150,7 @@ I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from the **Phili
 
 ---
 
-## 🏆 GitHub Achievements & Statistics
+## 🏆 GitHub Achievements 
 
 <br>
 
