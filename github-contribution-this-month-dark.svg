@@ -203,14 +203,14 @@
         
 
         <polygon
-          points="72.00,312.00 72.00,312.00 500.00,312.00 928.00,312.00 928.00,312.00"
+          points="72.00,312.00 72.00,312.00 357.33,312.00 642.67,312.00 928.00,312.00 928.00,312.00"
           fill="#36BCF7"
           opacity="0.10"
         />
     
 
         <polyline
-          points="72.00,312.00 500.00,312.00 928.00,312.00"
+          points="72.00,312.00 357.33,312.00 642.67,312.00 928.00,312.00"
           fill="none"
           stroke="#36BCF7"
           stroke-width="3"
@@ -228,7 +228,15 @@
         
 
             <circle
-              cx="500.00"
+              cx="357.33"
+              cy="312.00"
+              r="2.8"
+              fill="#36BCF7"
+            />
+        
+
+            <circle
+              cx="642.67"
               cy="312.00"
               r="2.8"
               fill="#36BCF7"
@@ -266,7 +274,7 @@
         
 
             <text
-              x="500.00"
+              x="357.33"
               y="343"
               text-anchor="middle"
               fill="#8b949e"
@@ -278,7 +286,7 @@
         
 
             <text
-              x="928.00"
+              x="642.67"
               y="343"
               text-anchor="middle"
               fill="#8b949e"
@@ -289,6 +297,18 @@
             </text>
         
 
+            <text
+              x="928.00"
+              y="343"
+              text-anchor="middle"
+              fill="#8b949e"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Sep 4
+            </text>
+        
+
         <text
           x="72"
           y="363"
@@ -296,7 +316,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="10"
         >
-          Best day: 0 · Average/day: 0.0 · Active days: 0/3
+          Best day: 0 · Average/day: 0.0 · Active days: 0/4
         </text>
     
 </svg>
