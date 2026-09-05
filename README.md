@@ -22,7 +22,7 @@
 I'm **Nick Narry S. Mendoza**, an aspiring full-stack developer from **Laguna, Philippines 🇵🇭** focused on building practical web, mobile, database-driven, and AI-assisted systems.
 
 - 👨‍💻 Building **web, mobile, and full-stack applications**
-- 🤖 Exploring **AI-assisted development, prompt engineering, Codex, and ChatGPT**
+- 🤖 Exploring **AI-assisted development, Prompt Engineering, Codex, and ChatGPT**
 - 🧠 Interested in **APIs, databases, dashboards, automation, and AI integration**
 - 🧪 Experienced with **testing, debugging, Git, GitHub, and collaborative workflows**
 - 📱 Focused on clean, responsive, accessible, and practical applications
