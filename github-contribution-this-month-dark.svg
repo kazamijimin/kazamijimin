@@ -54,7 +54,7 @@
           font-size="18"
           font-weight="700"
         >
-          2
+          363
         </text>
     
 
@@ -88,7 +88,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              5
+              145
             </text>
         
 
@@ -110,7 +110,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              4
+              116
             </text>
         
 
@@ -132,7 +132,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              3
+              87
             </text>
         
 
@@ -154,7 +154,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              2
+              58
             </text>
         
 
@@ -176,7 +176,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              1
+              29
             </text>
         
 
@@ -203,14 +203,14 @@
         
 
         <polygon
-          points="72.00,312.00 72.00,312.00 194.29,312.00 316.57,312.00 438.86,312.00 561.14,270.60 683.43,312.00 805.71,270.60 928.00,312.00 928.00,312.00"
+          points="72.00,312.00 72.00,310.57 194.29,300.58 316.57,200.65 438.86,303.43 561.14,187.80 683.43,110.71 805.71,310.57 928.00,253.47 928.00,312.00"
           fill="#36BCF7"
           opacity="0.10"
         />
     
 
         <polyline
-          points="72.00,312.00 194.29,312.00 316.57,312.00 438.86,312.00 561.14,270.60 683.43,312.00 805.71,270.60 928.00,312.00"
+          points="72.00,310.57 194.29,300.58 316.57,200.65 438.86,303.43 561.14,187.80 683.43,110.71 805.71,310.57 928.00,253.47"
           fill="none"
           stroke="#36BCF7"
           stroke-width="3"
@@ -221,7 +221,7 @@
 
             <circle
               cx="72.00"
-              cy="312.00"
+              cy="310.57"
               r="2.8"
               fill="#36BCF7"
             />
@@ -229,7 +229,7 @@
 
             <circle
               cx="194.29"
-              cy="312.00"
+              cy="300.58"
               r="2.8"
               fill="#36BCF7"
             />
@@ -237,7 +237,7 @@
 
             <circle
               cx="316.57"
-              cy="312.00"
+              cy="200.65"
               r="2.8"
               fill="#36BCF7"
             />
@@ -245,7 +245,7 @@
 
             <circle
               cx="438.86"
-              cy="312.00"
+              cy="303.43"
               r="2.8"
               fill="#36BCF7"
             />
@@ -253,7 +253,7 @@
 
             <circle
               cx="561.14"
-              cy="270.60"
+              cy="187.80"
               r="2.8"
               fill="#36BCF7"
             />
@@ -261,7 +261,7 @@
 
             <circle
               cx="683.43"
-              cy="312.00"
+              cy="110.71"
               r="2.8"
               fill="#36BCF7"
             />
@@ -269,7 +269,7 @@
 
             <circle
               cx="805.71"
-              cy="270.60"
+              cy="310.57"
               r="2.8"
               fill="#36BCF7"
             />
@@ -277,15 +277,15 @@
 
             <circle
               cx="928.00"
-              cy="312.00"
+              cy="253.47"
               r="2.8"
               fill="#36BCF7"
             />
         
 
         <circle
-          cx="561.14"
-          cy="270.60"
+          cx="683.43"
+          cy="110.71"
           r="6"
           fill="#0d1117"
           stroke="#36BCF7"
@@ -384,7 +384,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="10"
         >
-          Best day: 1 · Average/day: 0.2 · Active days: 2/8
+          Best day: 141 · Average/day: 45.4 · Active days: 8/8
         </text>
     
 </svg>
