@@ -203,14 +203,14 @@
         
 
         <polygon
-          points="72.00,312.00 72.00,312.00 214.67,312.00 357.33,312.00 500.00,312.00 642.67,270.60 785.33,312.00 928.00,270.60 928.00,312.00"
+          points="72.00,312.00 72.00,312.00 194.29,312.00 316.57,312.00 438.86,312.00 561.14,270.60 683.43,312.00 805.71,270.60 928.00,312.00 928.00,312.00"
           fill="#54aeff"
           opacity="0.10"
         />
     
 
         <polyline
-          points="72.00,312.00 214.67,312.00 357.33,312.00 500.00,312.00 642.67,270.60 785.33,312.00 928.00,270.60"
+          points="72.00,312.00 194.29,312.00 316.57,312.00 438.86,312.00 561.14,270.60 683.43,312.00 805.71,270.60 928.00,312.00"
           fill="none"
           stroke="#0969da"
           stroke-width="3"
@@ -228,7 +228,7 @@
         
 
             <circle
-              cx="214.67"
+              cx="194.29"
               cy="312.00"
               r="2.8"
               fill="#0969da"
@@ -236,7 +236,7 @@
         
 
             <circle
-              cx="357.33"
+              cx="316.57"
               cy="312.00"
               r="2.8"
               fill="#0969da"
@@ -244,7 +244,7 @@
         
 
             <circle
-              cx="500.00"
+              cx="438.86"
               cy="312.00"
               r="2.8"
               fill="#0969da"
@@ -252,7 +252,7 @@
         
 
             <circle
-              cx="642.67"
+              cx="561.14"
               cy="270.60"
               r="2.8"
               fill="#0969da"
@@ -260,8 +260,16 @@
         
 
             <circle
-              cx="785.33"
+              cx="683.43"
               cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+        
+
+            <circle
+              cx="805.71"
+              cy="270.60"
               r="2.8"
               fill="#0969da"
             />
@@ -269,14 +277,14 @@
 
             <circle
               cx="928.00"
-              cy="270.60"
+              cy="312.00"
               r="2.8"
               fill="#0969da"
             />
         
 
         <circle
-          cx="642.67"
+          cx="561.14"
           cy="270.60"
           r="6"
           fill="#ffffff"
@@ -298,7 +306,7 @@
         
 
             <text
-              x="214.67"
+              x="194.29"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -310,7 +318,7 @@
         
 
             <text
-              x="357.33"
+              x="316.57"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -322,19 +330,7 @@
         
 
             <text
-              x="500.00"
-              y="343"
-              text-anchor="middle"
-              fill="#656d76"
-              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
-              font-size="11"
-            >
-              Sep 4
-            </text>
-        
-
-            <text
-              x="642.67"
+              x="561.14"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -346,7 +342,7 @@
         
 
             <text
-              x="785.33"
+              x="683.43"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -358,7 +354,7 @@
         
 
             <text
-              x="928.00"
+              x="805.71"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -369,6 +365,18 @@
             </text>
         
 
+            <text
+              x="928.00"
+              y="343"
+              text-anchor="middle"
+              fill="#656d76"
+              font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+              font-size="11"
+            >
+              Sep 8
+            </text>
+        
+
         <text
           x="72"
           y="363"
@@ -376,7 +384,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="10"
         >
-          Best day: 1 · Average/day: 0.3 · Active days: 2/7
+          Best day: 1 · Average/day: 0.2 · Active days: 2/8
         </text>
     
 </svg>
