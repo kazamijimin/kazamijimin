@@ -54,7 +54,7 @@
           font-size="18"
           font-weight="700"
         >
-          22
+          105
         </text>
     
 
@@ -88,7 +88,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              15
+              55
             </text>
         
 
@@ -110,7 +110,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              12
+              44
             </text>
         
 
@@ -132,7 +132,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              9
+              33
             </text>
         
 
@@ -154,7 +154,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              6
+              22
             </text>
         
 
@@ -176,7 +176,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              3
+              11
             </text>
         
 
@@ -203,14 +203,14 @@
         
 
         <polygon
-          points="72.00,312.00 72.00,132.60 500.00,270.60 928.00,229.20 928.00,312.00"
+          points="72.00,312.00 72.00,263.07 500.00,165.22 928.00,112.53 928.00,312.00"
           fill="#36BCF7"
           opacity="0.10"
         />
     
 
         <polyline
-          points="72.00,132.60 500.00,270.60 928.00,229.20"
+          points="72.00,263.07 500.00,165.22 928.00,112.53"
           fill="none"
           stroke="#36BCF7"
           stroke-width="3"
@@ -221,7 +221,7 @@
 
             <circle
               cx="72.00"
-              cy="132.60"
+              cy="263.07"
               r="2.8"
               fill="#36BCF7"
             />
@@ -229,7 +229,7 @@
 
             <circle
               cx="500.00"
-              cy="270.60"
+              cy="165.22"
               r="2.8"
               fill="#36BCF7"
             />
@@ -237,15 +237,15 @@
 
             <circle
               cx="928.00"
-              cy="229.20"
+              cy="112.53"
               r="2.8"
               fill="#36BCF7"
             />
         
 
         <circle
-          cx="72.00"
-          cy="132.60"
+          cx="928.00"
+          cy="112.53"
           r="6"
           fill="#0d1117"
           stroke="#36BCF7"
@@ -296,7 +296,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="10"
         >
-          Best day: 13 · Average/day: 7.3 · Active days: 3/3
+          Best day: 53 · Average/day: 35.0 · Active days: 3/3
         </text>
     
 </svg>
