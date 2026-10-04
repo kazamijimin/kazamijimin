@@ -54,7 +54,7 @@
           font-size="18"
           font-weight="700"
         >
-          105
+          107
         </text>
     
 
@@ -203,14 +203,14 @@
         
 
         <polygon
-          points="72.00,312.00 72.00,263.07 357.33,165.22 642.67,112.53 928.00,312.00 928.00,312.00"
+          points="72.00,312.00 72.00,263.07 357.33,165.22 642.67,112.53 928.00,304.47 928.00,312.00"
           fill="#36BCF7"
           opacity="0.10"
         />
     
 
         <polyline
-          points="72.00,263.07 357.33,165.22 642.67,112.53 928.00,312.00"
+          points="72.00,263.07 357.33,165.22 642.67,112.53 928.00,304.47"
           fill="none"
           stroke="#36BCF7"
           stroke-width="3"
@@ -245,7 +245,7 @@
 
             <circle
               cx="928.00"
-              cy="312.00"
+              cy="304.47"
               r="2.8"
               fill="#36BCF7"
             />
@@ -316,7 +316,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="10"
         >
-          Best day: 53 · Average/day: 26.2 · Active days: 3/4
+          Best day: 53 · Average/day: 26.8 · Active days: 4/4
         </text>
     
 </svg>
