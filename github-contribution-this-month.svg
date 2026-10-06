@@ -54,7 +54,7 @@
           font-size="18"
           font-weight="700"
         >
-          110
+          400
         </text>
     
 
@@ -88,7 +88,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              55
+              240
             </text>
         
 
@@ -110,7 +110,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              44
+              192
             </text>
         
 
@@ -132,7 +132,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              33
+              144
             </text>
         
 
@@ -154,7 +154,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              22
+              96
             </text>
         
 
@@ -176,7 +176,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              11
+              48
             </text>
         
 
@@ -203,14 +203,14 @@
         
 
         <polygon
-          points="72.00,312.00 72.00,263.07 243.20,165.22 414.40,112.53 585.60,304.47 756.80,300.71 928.00,312.00 928.00,312.00"
+          points="72.00,312.00 72.00,300.79 243.20,278.36 414.40,266.29 585.60,106.72 756.80,263.70 928.00,311.14 928.00,312.00"
           fill="#54aeff"
           opacity="0.10"
         />
     
 
         <polyline
-          points="72.00,263.07 243.20,165.22 414.40,112.53 585.60,304.47 756.80,300.71 928.00,312.00"
+          points="72.00,300.79 243.20,278.36 414.40,266.29 585.60,106.72 756.80,263.70 928.00,311.14"
           fill="none"
           stroke="#0969da"
           stroke-width="3"
@@ -221,7 +221,7 @@
 
             <circle
               cx="72.00"
-              cy="263.07"
+              cy="300.79"
               r="2.8"
               fill="#0969da"
             />
@@ -229,7 +229,7 @@
 
             <circle
               cx="243.20"
-              cy="165.22"
+              cy="278.36"
               r="2.8"
               fill="#0969da"
             />
@@ -237,7 +237,7 @@
 
             <circle
               cx="414.40"
-              cy="112.53"
+              cy="266.29"
               r="2.8"
               fill="#0969da"
             />
@@ -245,7 +245,7 @@
 
             <circle
               cx="585.60"
-              cy="304.47"
+              cy="106.72"
               r="2.8"
               fill="#0969da"
             />
@@ -253,7 +253,7 @@
 
             <circle
               cx="756.80"
-              cy="300.71"
+              cy="263.70"
               r="2.8"
               fill="#0969da"
             />
@@ -261,15 +261,15 @@
 
             <circle
               cx="928.00"
-              cy="312.00"
+              cy="311.14"
               r="2.8"
               fill="#0969da"
             />
         
 
         <circle
-          cx="414.40"
-          cy="112.53"
+          cx="585.60"
+          cy="106.72"
           r="6"
           fill="#ffffff"
           stroke="#0969da"
@@ -356,7 +356,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="10"
         >
-          Best day: 53 · Average/day: 18.3 · Active days: 5/6
+          Best day: 238 · Average/day: 66.7 · Active days: 6/6
         </text>
     
 </svg>
