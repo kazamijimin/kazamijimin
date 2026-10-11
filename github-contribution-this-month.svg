@@ -203,14 +203,14 @@
         
 
         <polygon
-          points="72.00,312.00 72.00,300.79 167.11,278.36 262.22,266.29 357.33,106.72 452.44,263.70 547.56,311.14 642.67,311.14 737.78,218.85 832.89,307.69 928.00,310.27 928.00,312.00"
+          points="72.00,312.00 72.00,300.79 157.60,278.36 243.20,266.29 328.80,106.72 414.40,263.70 500.00,311.14 585.60,311.14 671.20,218.85 756.80,307.69 842.40,310.27 928.00,312.00 928.00,312.00"
           fill="#54aeff"
           opacity="0.10"
         />
     
 
         <polyline
-          points="72.00,300.79 167.11,278.36 262.22,266.29 357.33,106.72 452.44,263.70 547.56,311.14 642.67,311.14 737.78,218.85 832.89,307.69 928.00,310.27"
+          points="72.00,300.79 157.60,278.36 243.20,266.29 328.80,106.72 414.40,263.70 500.00,311.14 585.60,311.14 671.20,218.85 756.80,307.69 842.40,310.27 928.00,312.00"
           fill="none"
           stroke="#0969da"
           stroke-width="3"
@@ -228,7 +228,7 @@
         
 
             <circle
-              cx="167.11"
+              cx="157.60"
               cy="278.36"
               r="2.8"
               fill="#0969da"
@@ -236,7 +236,7 @@
         
 
             <circle
-              cx="262.22"
+              cx="243.20"
               cy="266.29"
               r="2.8"
               fill="#0969da"
@@ -244,7 +244,7 @@
         
 
             <circle
-              cx="357.33"
+              cx="328.80"
               cy="106.72"
               r="2.8"
               fill="#0969da"
@@ -252,7 +252,7 @@
         
 
             <circle
-              cx="452.44"
+              cx="414.40"
               cy="263.70"
               r="2.8"
               fill="#0969da"
@@ -260,7 +260,7 @@
         
 
             <circle
-              cx="547.56"
+              cx="500.00"
               cy="311.14"
               r="2.8"
               fill="#0969da"
@@ -268,7 +268,7 @@
         
 
             <circle
-              cx="642.67"
+              cx="585.60"
               cy="311.14"
               r="2.8"
               fill="#0969da"
@@ -276,7 +276,7 @@
         
 
             <circle
-              cx="737.78"
+              cx="671.20"
               cy="218.85"
               r="2.8"
               fill="#0969da"
@@ -284,7 +284,7 @@
         
 
             <circle
-              cx="832.89"
+              cx="756.80"
               cy="307.69"
               r="2.8"
               fill="#0969da"
@@ -292,15 +292,23 @@
         
 
             <circle
-              cx="928.00"
+              cx="842.40"
               cy="310.27"
               r="2.8"
               fill="#0969da"
             />
         
 
+            <circle
+              cx="928.00"
+              cy="312.00"
+              r="2.8"
+              fill="#0969da"
+            />
+        
+
         <circle
-          cx="357.33"
+          cx="328.80"
           cy="106.72"
           r="6"
           fill="#ffffff"
@@ -322,7 +330,7 @@
         
 
             <text
-              x="262.22"
+              x="243.20"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -334,7 +342,7 @@
         
 
             <text
-              x="357.33"
+              x="328.80"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -346,31 +354,31 @@
         
 
             <text
-              x="452.44"
+              x="500.00"
               y="343"
               text-anchor="middle"
               fill="#656d76"
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              Oct 5
+              Oct 6
             </text>
         
 
             <text
-              x="642.67"
+              x="671.20"
               y="343"
               text-anchor="middle"
               fill="#656d76"
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              Oct 7
+              Oct 8
             </text>
         
 
             <text
-              x="832.89"
+              x="756.80"
               y="343"
               text-anchor="middle"
               fill="#656d76"
@@ -389,7 +397,7 @@
               font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
               font-size="11"
             >
-              Oct 10
+              Oct 11
             </text>
         
 
@@ -400,7 +408,7 @@
           font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
           font-size="10"
         >
-          Best day: 238 · Average/day: 51.6 · Active days: 10/10
+          Best day: 238 · Average/day: 46.9 · Active days: 10/11
         </text>
     
 </svg>
